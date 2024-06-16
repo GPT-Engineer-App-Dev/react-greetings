@@ -39,6 +39,7 @@ const fromSupabase = async (query) => {
 | name       | text        | string | false    |
 | date       | date        | string | false    |
 | venue      | int8        | number | false    |
+| created_by | uuid        | string | false    |
 
 ### comments
 
